@@ -88,6 +88,7 @@ rgb = decode_segmap(output)
 img = Image.fromarray(rgb)
 plt.axis('off')#显示模型的可视化结果
 plt.imshow(img)
+plt.show()
 
 
 
